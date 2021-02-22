@@ -51,7 +51,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -68,10 +68,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(account) 
+      post_body = opts[:body] || @api_client.object_to_http_body(account)
 
       # return_type
-      return_type = opts[:return_type] || 'Accounts' 
+      return_type = opts[:return_type] || 'Accounts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -139,7 +139,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -156,10 +156,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -227,7 +227,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -244,10 +244,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -309,7 +309,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -326,10 +326,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -391,7 +391,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -408,10 +408,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(bank_transactions) 
+      post_body = opts[:body] || @api_client.object_to_http_body(bank_transactions)
 
       # return_type
-      return_type = opts[:return_type] || 'BankTransactions' 
+      return_type = opts[:return_type] || 'BankTransactions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -467,7 +467,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -484,10 +484,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(bank_transfers) 
+      post_body = opts[:body] || @api_client.object_to_http_body(bank_transfers)
 
       # return_type
-      return_type = opts[:return_type] || 'BankTransfers' 
+      return_type = opts[:return_type] || 'BankTransfers'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -553,7 +553,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -570,10 +570,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -635,7 +635,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -652,10 +652,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -714,7 +714,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -731,10 +731,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(batch_payments) 
+      post_body = opts[:body] || @api_client.object_to_http_body(batch_payments)
 
       # return_type
-      return_type = opts[:return_type] || 'BatchPayments' 
+      return_type = opts[:return_type] || 'BatchPayments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -796,7 +796,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -813,10 +813,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -878,7 +878,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -895,10 +895,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(payment_service) 
+      post_body = opts[:body] || @api_client.object_to_http_body(payment_service)
 
       # return_type
-      return_type = opts[:return_type] || 'PaymentServices' 
+      return_type = opts[:return_type] || 'PaymentServices'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -964,7 +964,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -981,10 +981,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -1040,7 +1040,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -1057,10 +1057,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(contact_groups) 
+      post_body = opts[:body] || @api_client.object_to_http_body(contact_groups)
 
       # return_type
-      return_type = opts[:return_type] || 'ContactGroups' 
+      return_type = opts[:return_type] || 'ContactGroups'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -1122,7 +1122,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -1139,10 +1139,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(contacts) 
+      post_body = opts[:body] || @api_client.object_to_http_body(contacts)
 
       # return_type
-      return_type = opts[:return_type] || 'Contacts' 
+      return_type = opts[:return_type] || 'Contacts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -1204,7 +1204,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -1221,10 +1221,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -1283,7 +1283,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -1300,10 +1300,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(contacts) 
+      post_body = opts[:body] || @api_client.object_to_http_body(contacts)
 
       # return_type
-      return_type = opts[:return_type] || 'Contacts' 
+      return_type = opts[:return_type] || 'Contacts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -1368,7 +1368,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -1385,10 +1385,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(allocations) 
+      post_body = opts[:body] || @api_client.object_to_http_body(allocations)
 
       # return_type
-      return_type = opts[:return_type] || 'Allocations' 
+      return_type = opts[:return_type] || 'Allocations'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -1459,7 +1459,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'IncludeOnline'] = opts[:'include_online'] if !opts[:'include_online'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -1476,10 +1476,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -1541,7 +1541,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -1558,10 +1558,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -1623,7 +1623,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -1640,10 +1640,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(credit_notes) 
+      post_body = opts[:body] || @api_client.object_to_http_body(credit_notes)
 
       # return_type
-      return_type = opts[:return_type] || 'CreditNotes' 
+      return_type = opts[:return_type] || 'CreditNotes'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -1699,7 +1699,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -1716,10 +1716,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(currency) 
+      post_body = opts[:body] || @api_client.object_to_http_body(currency)
 
       # return_type
-      return_type = opts[:return_type] || 'Currencies' 
+      return_type = opts[:return_type] || 'Currencies'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -1778,7 +1778,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -1795,10 +1795,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(employees) 
+      post_body = opts[:body] || @api_client.object_to_http_body(employees)
 
       # return_type
-      return_type = opts[:return_type] || 'Employees' 
+      return_type = opts[:return_type] || 'Employees'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -1860,7 +1860,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -1877,10 +1877,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -1936,7 +1936,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -1953,10 +1953,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(expense_claims) 
+      post_body = opts[:body] || @api_client.object_to_http_body(expense_claims)
 
       # return_type
-      return_type = opts[:return_type] || 'ExpenseClaims' 
+      return_type = opts[:return_type] || 'ExpenseClaims'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -2027,7 +2027,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'IncludeOnline'] = opts[:'include_online'] if !opts[:'include_online'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -2044,10 +2044,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -2109,7 +2109,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -2126,10 +2126,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -2191,7 +2191,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -2208,10 +2208,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(invoices) 
+      post_body = opts[:body] || @api_client.object_to_http_body(invoices)
 
       # return_type
-      return_type = opts[:return_type] || 'Invoices' 
+      return_type = opts[:return_type] || 'Invoices'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -2273,7 +2273,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -2290,10 +2290,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -2355,7 +2355,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -2372,10 +2372,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(items) 
+      post_body = opts[:body] || @api_client.object_to_http_body(items)
 
       # return_type
-      return_type = opts[:return_type] || 'Items' 
+      return_type = opts[:return_type] || 'Items'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -2431,7 +2431,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -2448,10 +2448,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(linked_transaction) 
+      post_body = opts[:body] || @api_client.object_to_http_body(linked_transaction)
 
       # return_type
-      return_type = opts[:return_type] || 'LinkedTransactions' 
+      return_type = opts[:return_type] || 'LinkedTransactions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -2519,7 +2519,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -2536,10 +2536,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -2601,7 +2601,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -2618,10 +2618,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -2680,7 +2680,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -2697,10 +2697,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(manual_journals) 
+      post_body = opts[:body] || @api_client.object_to_http_body(manual_journals)
 
       # return_type
-      return_type = opts[:return_type] || 'ManualJournals' 
+      return_type = opts[:return_type] || 'ManualJournals'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -2765,7 +2765,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -2782,10 +2782,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(allocations) 
+      post_body = opts[:body] || @api_client.object_to_http_body(allocations)
 
       # return_type
-      return_type = opts[:return_type] || 'Allocations' 
+      return_type = opts[:return_type] || 'Allocations'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -2847,7 +2847,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -2864,10 +2864,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -2923,7 +2923,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -2940,10 +2940,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(payment) 
+      post_body = opts[:body] || @api_client.object_to_http_body(payment)
 
       # return_type
-      return_type = opts[:return_type] || 'Payments' 
+      return_type = opts[:return_type] || 'Payments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3005,7 +3005,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -3022,10 +3022,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3081,7 +3081,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -3098,10 +3098,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(payment_services) 
+      post_body = opts[:body] || @api_client.object_to_http_body(payment_services)
 
       # return_type
-      return_type = opts[:return_type] || 'PaymentServices' 
+      return_type = opts[:return_type] || 'PaymentServices'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3160,7 +3160,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -3177,10 +3177,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(payments) 
+      post_body = opts[:body] || @api_client.object_to_http_body(payments)
 
       # return_type
-      return_type = opts[:return_type] || 'Payments' 
+      return_type = opts[:return_type] || 'Payments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3245,7 +3245,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -3262,10 +3262,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(allocations) 
+      post_body = opts[:body] || @api_client.object_to_http_body(allocations)
 
       # return_type
-      return_type = opts[:return_type] || 'Allocations' 
+      return_type = opts[:return_type] || 'Allocations'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3327,7 +3327,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -3344,10 +3344,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3415,7 +3415,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -3432,10 +3432,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3497,7 +3497,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -3514,10 +3514,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3576,7 +3576,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -3593,10 +3593,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(purchase_orders) 
+      post_body = opts[:body] || @api_client.object_to_http_body(purchase_orders)
 
       # return_type
-      return_type = opts[:return_type] || 'PurchaseOrders' 
+      return_type = opts[:return_type] || 'PurchaseOrders'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3664,7 +3664,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -3681,10 +3681,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3746,7 +3746,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -3763,10 +3763,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3825,7 +3825,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -3842,10 +3842,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(quotes) 
+      post_body = opts[:body] || @api_client.object_to_http_body(quotes)
 
       # return_type
-      return_type = opts[:return_type] || 'Quotes' 
+      return_type = opts[:return_type] || 'Quotes'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3904,7 +3904,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -3921,10 +3921,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(receipts) 
+      post_body = opts[:body] || @api_client.object_to_http_body(receipts)
 
       # return_type
-      return_type = opts[:return_type] || 'Receipts' 
+      return_type = opts[:return_type] || 'Receipts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -3992,7 +3992,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4009,10 +4009,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -4074,7 +4074,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4091,10 +4091,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -4162,7 +4162,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4179,10 +4179,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -4244,7 +4244,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4261,10 +4261,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(history_records) 
+      post_body = opts[:body] || @api_client.object_to_http_body(history_records)
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -4320,7 +4320,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4337,10 +4337,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(tax_rates) 
+      post_body = opts[:body] || @api_client.object_to_http_body(tax_rates)
 
       # return_type
-      return_type = opts[:return_type] || 'TaxRates' 
+      return_type = opts[:return_type] || 'TaxRates'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -4396,7 +4396,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4413,10 +4413,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(tracking_category) 
+      post_body = opts[:body] || @api_client.object_to_http_body(tracking_category)
 
       # return_type
-      return_type = opts[:return_type] || 'TrackingCategories' 
+      return_type = opts[:return_type] || 'TrackingCategories'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -4478,7 +4478,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4495,10 +4495,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(tracking_option) 
+      post_body = opts[:body] || @api_client.object_to_http_body(tracking_option)
 
       # return_type
-      return_type = opts[:return_type] || 'TrackingOptions' 
+      return_type = opts[:return_type] || 'TrackingOptions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -4554,7 +4554,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4569,10 +4569,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Accounts' 
+      return_type = opts[:return_type] || 'Accounts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -4634,7 +4634,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4649,10 +4649,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] 
+      return_type = opts[:return_type]
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -4708,7 +4708,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4721,10 +4721,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] 
+      return_type = opts[:return_type]
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -4780,7 +4780,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4795,10 +4795,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] 
+      return_type = opts[:return_type]
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -4854,7 +4854,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4869,10 +4869,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] 
+      return_type = opts[:return_type]
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -4896,7 +4896,7 @@ module XeroRuby
     # Updates a specific payment for invoices and credit notes
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param payment_id [String] Unique identifier for a Payment
-    # @param payment_delete [PaymentDelete] 
+    # @param payment_delete [PaymentDelete]
     # @param [Hash] opts the optional parameters
     # @return [Payments]
     def delete_payment(xero_tenant_id, payment_id, payment_delete, opts = {})
@@ -4907,7 +4907,7 @@ module XeroRuby
     # Updates a specific payment for invoices and credit notes
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param payment_id [String] Unique identifier for a Payment
-    # @param payment_delete [PaymentDelete] 
+    # @param payment_delete [PaymentDelete]
     # @param [Hash] opts the optional parameters
     # @return [Array<(Payments, Integer, Hash)>] Payments data, response status code and response headers
     def delete_payment_with_http_info(xero_tenant_id, payment_id, payment_delete, opts = {})
@@ -4934,7 +4934,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -4951,10 +4951,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(payment_delete) 
+      post_body = opts[:body] || @api_client.object_to_http_body(payment_delete)
 
       # return_type
-      return_type = opts[:return_type] || 'Payments' 
+      return_type = opts[:return_type] || 'Payments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5010,7 +5010,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5025,10 +5025,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'TrackingCategories' 
+      return_type = opts[:return_type] || 'TrackingCategories'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5090,7 +5090,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5105,10 +5105,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'TrackingOptions' 
+      return_type = opts[:return_type] || 'TrackingOptions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5132,7 +5132,7 @@ module XeroRuby
     # Sends a copy of a specific invoice to related contact via email
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param invoice_id [String] Unique identifier for an Invoice
-    # @param request_empty [RequestEmpty] 
+    # @param request_empty [RequestEmpty]
     # @param [Hash] opts the optional parameters
     # @return [nil]
     def email_invoice(xero_tenant_id, invoice_id, request_empty, opts = {})
@@ -5143,7 +5143,7 @@ module XeroRuby
     # Sends a copy of a specific invoice to related contact via email
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param invoice_id [String] Unique identifier for an Invoice
-    # @param request_empty [RequestEmpty] 
+    # @param request_empty [RequestEmpty]
     # @param [Hash] opts the optional parameters
     # @return [Array<(nil, Integer, Hash)>] nil, response status code and response headers
     def email_invoice_with_http_info(xero_tenant_id, invoice_id, request_empty, opts = {})
@@ -5170,7 +5170,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5187,10 +5187,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(request_empty) 
+      post_body = opts[:body] || @api_client.object_to_http_body(request_empty)
 
       # return_type
-      return_type = opts[:return_type] 
+      return_type = opts[:return_type]
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5246,7 +5246,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5261,10 +5261,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Accounts' 
+      return_type = opts[:return_type] || 'Accounts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5332,7 +5332,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5348,10 +5348,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5419,7 +5419,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5435,10 +5435,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5494,7 +5494,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5509,10 +5509,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5570,7 +5570,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5586,10 +5586,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Accounts' 
+      return_type = opts[:return_type] || 'Accounts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5648,7 +5648,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5663,10 +5663,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'BankTransactions' 
+      return_type = opts[:return_type] || 'BankTransactions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5734,7 +5734,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5750,10 +5750,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5821,7 +5821,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5837,10 +5837,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5896,7 +5896,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5911,10 +5911,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -5978,7 +5978,7 @@ module XeroRuby
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
       query_params[:'page'] = opts[:'page'] if !opts[:'page'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -5994,10 +5994,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'BankTransactions' 
+      return_type = opts[:return_type] || 'BankTransactions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6053,7 +6053,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6068,10 +6068,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6127,7 +6127,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6142,10 +6142,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'BankTransfers' 
+      return_type = opts[:return_type] || 'BankTransfers'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6213,7 +6213,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6229,10 +6229,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6300,7 +6300,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6316,10 +6316,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6375,7 +6375,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6390,10 +6390,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6449,7 +6449,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6464,10 +6464,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6525,7 +6525,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6541,10 +6541,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'BankTransfers' 
+      return_type = opts[:return_type] || 'BankTransfers'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6600,7 +6600,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6615,10 +6615,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6676,7 +6676,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6692,10 +6692,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'BatchPayments' 
+      return_type = opts[:return_type] || 'BatchPayments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6751,7 +6751,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6766,10 +6766,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'BrandingThemes' 
+      return_type = opts[:return_type] || 'BrandingThemes'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6825,7 +6825,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6840,10 +6840,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'PaymentServices' 
+      return_type = opts[:return_type] || 'PaymentServices'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6893,7 +6893,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6908,10 +6908,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'BrandingThemes' 
+      return_type = opts[:return_type] || 'BrandingThemes'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -6967,7 +6967,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -6982,10 +6982,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Contacts' 
+      return_type = opts[:return_type] || 'Contacts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7053,7 +7053,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -7069,10 +7069,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7140,7 +7140,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -7156,10 +7156,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7215,7 +7215,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -7230,10 +7230,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7289,7 +7289,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -7304,10 +7304,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Contacts' 
+      return_type = opts[:return_type] || 'Contacts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7363,7 +7363,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -7378,10 +7378,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'CISSettings' 
+      return_type = opts[:return_type] || 'CISSettings'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7437,7 +7437,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -7452,10 +7452,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ContactGroups' 
+      return_type = opts[:return_type] || 'ContactGroups'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7511,7 +7511,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -7526,10 +7526,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ContactGroups' 
+      return_type = opts[:return_type] || 'ContactGroups'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7585,7 +7585,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -7600,10 +7600,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7670,7 +7670,7 @@ module XeroRuby
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'i_ds'], :csv) if !opts[:'i_ds'].nil?
       query_params[:'page'] = opts[:'page'] if !opts[:'page'].nil?
       query_params[:'includeArchived'] = opts[:'include_archived'] if !opts[:'include_archived'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -7686,10 +7686,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Contacts' 
+      return_type = opts[:return_type] || 'Contacts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7748,7 +7748,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -7763,10 +7763,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'CreditNotes' 
+      return_type = opts[:return_type] || 'CreditNotes'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7822,7 +7822,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -7837,10 +7837,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7908,7 +7908,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -7924,10 +7924,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -7995,7 +7995,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8011,10 +8011,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -8070,7 +8070,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8085,10 +8085,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -8144,7 +8144,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8159,10 +8159,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -8226,7 +8226,7 @@ module XeroRuby
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
       query_params[:'page'] = opts[:'page'] if !opts[:'page'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8242,10 +8242,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'CreditNotes' 
+      return_type = opts[:return_type] || 'CreditNotes'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -8301,7 +8301,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8316,10 +8316,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Currencies' 
+      return_type = opts[:return_type] || 'Currencies'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -8375,7 +8375,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8390,10 +8390,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Employees' 
+      return_type = opts[:return_type] || 'Employees'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -8451,7 +8451,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8467,10 +8467,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Employees' 
+      return_type = opts[:return_type] || 'Employees'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -8526,7 +8526,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8541,10 +8541,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ExpenseClaims' 
+      return_type = opts[:return_type] || 'ExpenseClaims'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -8600,7 +8600,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8615,10 +8615,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -8676,7 +8676,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8692,10 +8692,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ExpenseClaims' 
+      return_type = opts[:return_type] || 'ExpenseClaims'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -8754,7 +8754,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8769,10 +8769,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Invoices' 
+      return_type = opts[:return_type] || 'Invoices'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -8828,7 +8828,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8843,10 +8843,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -8914,7 +8914,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -8930,10 +8930,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9001,7 +9001,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9017,10 +9017,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9076,7 +9076,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9091,10 +9091,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9150,7 +9150,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9165,10 +9165,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9218,7 +9218,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9233,10 +9233,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'InvoiceReminders' 
+      return_type = opts[:return_type] || 'InvoiceReminders'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9318,7 +9318,7 @@ module XeroRuby
       query_params[:'includeArchived'] = opts[:'include_archived'] if !opts[:'include_archived'].nil?
       query_params[:'createdByMyApp'] = opts[:'created_by_my_app'] if !opts[:'created_by_my_app'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9334,10 +9334,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Invoices' 
+      return_type = opts[:return_type] || 'Invoices'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9396,7 +9396,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9411,10 +9411,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Items' 
+      return_type = opts[:return_type] || 'Items'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9470,7 +9470,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9485,10 +9485,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9549,7 +9549,7 @@ module XeroRuby
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9565,10 +9565,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Items' 
+      return_type = opts[:return_type] || 'Items'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9624,7 +9624,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9639,10 +9639,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Journals' 
+      return_type = opts[:return_type] || 'Journals'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9700,7 +9700,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'offset'] = opts[:'offset'] if !opts[:'offset'].nil?
       query_params[:'paymentsOnly'] = opts[:'payments_only'] if !opts[:'payments_only'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9716,10 +9716,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Journals' 
+      return_type = opts[:return_type] || 'Journals'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9775,7 +9775,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9790,10 +9790,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'LinkedTransactions' 
+      return_type = opts[:return_type] || 'LinkedTransactions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9861,7 +9861,7 @@ module XeroRuby
       query_params[:'ContactID'] = opts[:'contact_id'] if !opts[:'contact_id'].nil?
       query_params[:'Status'] = opts[:'status'] if !opts[:'status'].nil?
       query_params[:'TargetTransactionID'] = opts[:'target_transaction_id'] if !opts[:'target_transaction_id'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9876,10 +9876,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'LinkedTransactions' 
+      return_type = opts[:return_type] || 'LinkedTransactions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -9935,7 +9935,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -9950,10 +9950,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ManualJournals' 
+      return_type = opts[:return_type] || 'ManualJournals'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10021,7 +10021,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10037,10 +10037,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10108,7 +10108,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10124,10 +10124,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10183,7 +10183,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10198,10 +10198,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10262,7 +10262,7 @@ module XeroRuby
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
       query_params[:'page'] = opts[:'page'] if !opts[:'page'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10278,10 +10278,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ManualJournals' 
+      return_type = opts[:return_type] || 'ManualJournals'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10337,7 +10337,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10352,10 +10352,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10411,7 +10411,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10426,10 +10426,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'OnlineInvoices' 
+      return_type = opts[:return_type] || 'OnlineInvoices'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10479,7 +10479,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10494,10 +10494,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Actions' 
+      return_type = opts[:return_type] || 'Actions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10553,7 +10553,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10568,10 +10568,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'CISOrgSettings' 
+      return_type = opts[:return_type] || 'CISOrgSettings'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10621,7 +10621,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10636,10 +10636,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Organisations' 
+      return_type = opts[:return_type] || 'Organisations'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10695,7 +10695,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10710,10 +10710,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Overpayments' 
+      return_type = opts[:return_type] || 'Overpayments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10769,7 +10769,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10784,10 +10784,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10851,7 +10851,7 @@ module XeroRuby
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
       query_params[:'page'] = opts[:'page'] if !opts[:'page'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10867,10 +10867,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Overpayments' 
+      return_type = opts[:return_type] || 'Overpayments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -10926,7 +10926,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -10941,10 +10941,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Payments' 
+      return_type = opts[:return_type] || 'Payments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11000,7 +11000,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11015,10 +11015,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11068,7 +11068,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11083,10 +11083,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'PaymentServices' 
+      return_type = opts[:return_type] || 'PaymentServices'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11147,7 +11147,7 @@ module XeroRuby
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
       query_params[:'page'] = opts[:'page'] if !opts[:'page'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11163,10 +11163,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Payments' 
+      return_type = opts[:return_type] || 'Payments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11222,7 +11222,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11237,10 +11237,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Prepayments' 
+      return_type = opts[:return_type] || 'Prepayments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11296,7 +11296,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11311,10 +11311,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11378,7 +11378,7 @@ module XeroRuby
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
       query_params[:'page'] = opts[:'page'] if !opts[:'page'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11394,10 +11394,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Prepayments' 
+      return_type = opts[:return_type] || 'Prepayments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11453,7 +11453,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11468,10 +11468,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'PurchaseOrders' 
+      return_type = opts[:return_type] || 'PurchaseOrders'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11527,7 +11527,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11542,10 +11542,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11613,7 +11613,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11629,10 +11629,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11700,7 +11700,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11716,10 +11716,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11775,7 +11775,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11790,10 +11790,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11849,7 +11849,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11864,10 +11864,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'PurchaseOrders' 
+      return_type = opts[:return_type] || 'PurchaseOrders'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -11923,7 +11923,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -11938,10 +11938,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12012,7 +12012,7 @@ module XeroRuby
       query_params[:'DateTo'] = opts[:'date_to'] if !opts[:'date_to'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
       query_params[:'page'] = opts[:'page'] if !opts[:'page'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12028,10 +12028,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'PurchaseOrders' 
+      return_type = opts[:return_type] || 'PurchaseOrders'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12087,7 +12087,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12102,10 +12102,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Quotes' 
+      return_type = opts[:return_type] || 'Quotes'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12161,7 +12161,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12176,10 +12176,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12247,7 +12247,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12263,10 +12263,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12334,7 +12334,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12350,10 +12350,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12409,7 +12409,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12424,10 +12424,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12483,7 +12483,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12498,10 +12498,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12580,7 +12580,7 @@ module XeroRuby
       query_params[:'page'] = opts[:'page'] if !opts[:'page'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
       query_params[:'QuoteNumber'] = opts[:'quote_number'] if !opts[:'quote_number'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12596,10 +12596,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Quotes' 
+      return_type = opts[:return_type] || 'Quotes'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12658,7 +12658,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12673,10 +12673,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Receipts' 
+      return_type = opts[:return_type] || 'Receipts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12744,7 +12744,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12760,10 +12760,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12831,7 +12831,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12847,10 +12847,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12906,7 +12906,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12921,10 +12921,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -12980,7 +12980,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -12995,10 +12995,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13059,7 +13059,7 @@ module XeroRuby
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -13075,10 +13075,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Receipts' 
+      return_type = opts[:return_type] || 'Receipts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13134,7 +13134,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -13149,10 +13149,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'RepeatingInvoices' 
+      return_type = opts[:return_type] || 'RepeatingInvoices'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13220,7 +13220,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -13236,10 +13236,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13307,7 +13307,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -13323,10 +13323,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'File' 
+      return_type = opts[:return_type] || 'File'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13382,7 +13382,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -13397,10 +13397,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13456,7 +13456,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -13471,10 +13471,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'HistoryRecords' 
+      return_type = opts[:return_type] || 'HistoryRecords'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13530,7 +13530,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -13545,10 +13545,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'RepeatingInvoices' 
+      return_type = opts[:return_type] || 'RepeatingInvoices'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13614,7 +13614,7 @@ module XeroRuby
       query_params[:'date'] = opts[:'date'] if !opts[:'date'].nil?
       query_params[:'fromDate'] = opts[:'from_date'] if !opts[:'from_date'].nil?
       query_params[:'toDate'] = opts[:'to_date'] if !opts[:'to_date'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -13629,10 +13629,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ReportWithRows' 
+      return_type = opts[:return_type] || 'ReportWithRows'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13698,7 +13698,7 @@ module XeroRuby
       query_params[:'date'] = opts[:'date'] if !opts[:'date'].nil?
       query_params[:'fromDate'] = opts[:'from_date'] if !opts[:'from_date'].nil?
       query_params[:'toDate'] = opts[:'to_date'] if !opts[:'to_date'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -13713,10 +13713,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ReportWithRows' 
+      return_type = opts[:return_type] || 'ReportWithRows'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13772,7 +13772,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -13787,10 +13787,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ReportWithRows' 
+      return_type = opts[:return_type] || 'ReportWithRows'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13840,7 +13840,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -13855,10 +13855,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ReportWithRows' 
+      return_type = opts[:return_type] || 'ReportWithRows'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13933,7 +13933,7 @@ module XeroRuby
       query_params[:'trackingOptionID2'] = opts[:'tracking_option_id2'] if !opts[:'tracking_option_id2'].nil?
       query_params[:'standardLayout'] = opts[:'standard_layout'] if !opts[:'standard_layout'].nil?
       query_params[:'paymentsOnly'] = opts[:'payments_only'] if !opts[:'payments_only'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -13948,10 +13948,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ReportWithRows' 
+      return_type = opts[:return_type] || 'ReportWithRows'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -13968,6 +13968,81 @@ module XeroRuby
       data, status_code, headers = @api_client.call_api(:GET, local_var_path, "AccountingApi", new_options)
       if @api_client.config.debugging
         @api_client.config.logger.debug "API called: AccountingApi#get_report_balance_sheet\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
+      end
+      return data, status_code, headers
+    end
+
+    # Retrieves report for bank statement
+    # @param xero_tenant_id [String] Xero identifier for Tenant
+    # @param [Hash] opts the optional parameters
+    # @option opts [Date] :from_date The from date for the Bank Summary report e.g. 2018-03-31
+    # @option opts [Date] :to_date The to date for the Bank Summary report e.g. 2018-03-31
+    # @option opts [String] :bank_account_id The ID of the bank account
+    # @return [ReportWithRows]
+    def get_report_bank_statement(xero_tenant_id, opts = {})
+      data, _status_code, _headers = get_report_bank_statement_with_http_info(xero_tenant_id, opts)
+      data
+    end
+
+    # Retrieves report for bank summary
+    # @param xero_tenant_id [String] Xero identifier for Tenant
+    # @param [Hash] opts the optional parameters
+    # @option opts [Date] :from_date The from date for the Bank Summary report e.g. 2018-03-31
+    # @option opts [Date] :to_date The to date for the Bank Summary report e.g. 2018-03-31
+    # @return [Array<(ReportWithRows, Integer, Hash)>] ReportWithRows data, response status code and response headers
+    def get_report_bank_statement_with_http_info(xero_tenant_id, opts = {})
+      if @api_client.config.debugging
+        @api_client.config.logger.debug 'Calling API: AccountingApi.get_report_bank_summary ...'
+      end
+      # verify the required parameter 'xero_tenant_id' is set
+      if @api_client.config.client_side_validation && xero_tenant_id.nil?
+        fail ArgumentError, "Missing the required parameter 'xero_tenant_id' when calling AccountingApi.get_report_bank_summary"
+      end
+      # resource path
+      local_var_path = '/Reports/BankStatement'
+
+      # camelize keys of incoming `where` opts
+      opts[:'where'] = @api_client.parameterize_where(opts[:'where']) if !opts[:'where'].nil?
+
+      # query parameters
+      query_params = opts[:query_params] || {}
+      query_params[:'fromDate'] = opts[:'from_date'] if !opts[:'from_date'].nil?
+      query_params[:'toDate'] = opts[:'to_date'] if !opts[:'to_date'].nil?
+
+      # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
+      query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
+      query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
+
+      # header parameters
+      header_params = opts[:header_params] || {}
+      # HTTP header 'Accept' (if needed)
+      header_params['Accept'] = @api_client.select_header_accept(['application/json'])
+      header_params[:'xero-tenant-id'] = xero_tenant_id
+
+      # form parameters
+      form_params = opts[:form_params] || {}
+
+      # http body (model)
+      post_body = opts[:body]
+
+      # return_type
+      return_type = opts[:return_type] || 'ReportWithRows'
+
+      # auth_names
+      auth_names = opts[:auth_names] || ['OAuth2']
+
+      new_options = opts.merge(
+        :header_params => header_params,
+        :query_params => query_params,
+        :form_params => form_params,
+        :body => post_body,
+        :auth_names => auth_names,
+        :return_type => return_type
+      )
+
+      data, status_code, headers = @api_client.call_api(:GET, local_var_path, "AccountingApi", new_options)
+      if @api_client.config.debugging
+        @api_client.config.logger.debug "API called: AccountingApi#get_report_bank_statement\nData: #{data.inspect}\nStatus code: #{status_code}\nHeaders: #{headers}"
       end
       return data, status_code, headers
     end
@@ -14007,7 +14082,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'fromDate'] = opts[:'from_date'] if !opts[:'from_date'].nil?
       query_params[:'toDate'] = opts[:'to_date'] if !opts[:'to_date'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14022,10 +14097,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ReportWithRows' 
+      return_type = opts[:return_type] || 'ReportWithRows'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -14084,7 +14159,7 @@ module XeroRuby
       query_params[:'date'] = opts[:'date'] if !opts[:'date'].nil?
       query_params[:'period'] = opts[:'period'] if !opts[:'period'].nil?
       query_params[:'timeframe'] = opts[:'timeframe'] if !opts[:'timeframe'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14099,10 +14174,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ReportWithRows' 
+      return_type = opts[:return_type] || 'ReportWithRows'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -14155,7 +14230,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'date'] = opts[:'date'] if !opts[:'date'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14170,10 +14245,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ReportWithRows' 
+      return_type = opts[:return_type] || 'ReportWithRows'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -14257,7 +14332,7 @@ module XeroRuby
       query_params[:'trackingOptionID2'] = opts[:'tracking_option_id2'] if !opts[:'tracking_option_id2'].nil?
       query_params[:'standardLayout'] = opts[:'standard_layout'] if !opts[:'standard_layout'].nil?
       query_params[:'paymentsOnly'] = opts[:'payments_only'] if !opts[:'payments_only'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14272,10 +14347,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ReportWithRows' 
+      return_type = opts[:return_type] || 'ReportWithRows'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -14328,7 +14403,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'reportYear'] = opts[:'report_year'] if !opts[:'report_year'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14343,10 +14418,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Reports' 
+      return_type = opts[:return_type] || 'Reports'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -14402,7 +14477,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'date'] = opts[:'date'] if !opts[:'date'].nil?
       query_params[:'paymentsOnly'] = opts[:'payments_only'] if !opts[:'payments_only'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14417,10 +14492,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'ReportWithRows' 
+      return_type = opts[:return_type] || 'ReportWithRows'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -14479,7 +14554,7 @@ module XeroRuby
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
       query_params[:'TaxType'] = opts[:'tax_type'] if !opts[:'tax_type'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14494,10 +14569,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'TaxRates' 
+      return_type = opts[:return_type] || 'TaxRates'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -14556,7 +14631,7 @@ module XeroRuby
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
       query_params[:'includeArchived'] = opts[:'include_archived'] if !opts[:'include_archived'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14571,10 +14646,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'TrackingCategories' 
+      return_type = opts[:return_type] || 'TrackingCategories'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -14630,7 +14705,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14645,10 +14720,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'TrackingCategories' 
+      return_type = opts[:return_type] || 'TrackingCategories'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -14704,7 +14779,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14719,10 +14794,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Users' 
+      return_type = opts[:return_type] || 'Users'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -14780,7 +14855,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'where'] = opts[:'where'] if !opts[:'where'].nil?
       query_params[:'order'] = opts[:'order'] if !opts[:'order'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14796,10 +14871,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] 
+      post_body = opts[:body]
 
       # return_type
-      return_type = opts[:return_type] || 'Users' 
+      return_type = opts[:return_type] || 'Users'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -14855,7 +14930,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14872,10 +14947,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(setup) 
+      post_body = opts[:body] || @api_client.object_to_http_body(setup)
 
       # return_type
-      return_type = opts[:return_type] || 'ImportSummaryObject' 
+      return_type = opts[:return_type] || 'ImportSummaryObject'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -14937,7 +15012,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -14954,10 +15029,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(accounts) 
+      post_body = opts[:body] || @api_client.object_to_http_body(accounts)
 
       # return_type
-      return_type = opts[:return_type] || 'Accounts' 
+      return_type = opts[:return_type] || 'Accounts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -15025,7 +15100,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -15042,10 +15117,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -15069,7 +15144,7 @@ module XeroRuby
     # Updates a single spent or received money transaction
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param bank_transaction_id [String] Xero generated unique identifier for a bank transaction
-    # @param bank_transactions [BankTransactions] 
+    # @param bank_transactions [BankTransactions]
     # @param [Hash] opts the optional parameters
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
     # @return [BankTransactions]
@@ -15081,7 +15156,7 @@ module XeroRuby
     # Updates a single spent or received money transaction
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param bank_transaction_id [String] Xero generated unique identifier for a bank transaction
-    # @param bank_transactions [BankTransactions] 
+    # @param bank_transactions [BankTransactions]
     # @param [Hash] opts the optional parameters
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
     # @return [Array<(BankTransactions, Integer, Hash)>] BankTransactions data, response status code and response headers
@@ -15110,7 +15185,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -15127,10 +15202,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(bank_transactions) 
+      post_body = opts[:body] || @api_client.object_to_http_body(bank_transactions)
 
       # return_type
-      return_type = opts[:return_type] || 'BankTransactions' 
+      return_type = opts[:return_type] || 'BankTransactions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -15198,7 +15273,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -15215,10 +15290,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -15284,7 +15359,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -15301,10 +15376,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -15366,7 +15441,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -15383,10 +15458,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(contacts) 
+      post_body = opts[:body] || @api_client.object_to_http_body(contacts)
 
       # return_type
-      return_type = opts[:return_type] || 'Contacts' 
+      return_type = opts[:return_type] || 'Contacts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -15452,7 +15527,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -15469,10 +15544,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -15534,7 +15609,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -15551,10 +15626,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(contact_groups) 
+      post_body = opts[:body] || @api_client.object_to_http_body(contact_groups)
 
       # return_type
-      return_type = opts[:return_type] || 'ContactGroups' 
+      return_type = opts[:return_type] || 'ContactGroups'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -15619,7 +15694,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -15636,10 +15711,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(credit_notes) 
+      post_body = opts[:body] || @api_client.object_to_http_body(credit_notes)
 
       # return_type
-      return_type = opts[:return_type] || 'CreditNotes' 
+      return_type = opts[:return_type] || 'CreditNotes'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -15707,7 +15782,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -15724,10 +15799,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -15751,7 +15826,7 @@ module XeroRuby
     # Updates a specific expense claims
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param expense_claim_id [String] Unique identifier for a ExpenseClaim
-    # @param expense_claims [ExpenseClaims] 
+    # @param expense_claims [ExpenseClaims]
     # @param [Hash] opts the optional parameters
     # @return [ExpenseClaims]
     def update_expense_claim(xero_tenant_id, expense_claim_id, expense_claims, opts = {})
@@ -15762,7 +15837,7 @@ module XeroRuby
     # Updates a specific expense claims
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param expense_claim_id [String] Unique identifier for a ExpenseClaim
-    # @param expense_claims [ExpenseClaims] 
+    # @param expense_claims [ExpenseClaims]
     # @param [Hash] opts the optional parameters
     # @return [Array<(ExpenseClaims, Integer, Hash)>] ExpenseClaims data, response status code and response headers
     def update_expense_claim_with_http_info(xero_tenant_id, expense_claim_id, expense_claims, opts = {})
@@ -15789,7 +15864,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -15806,10 +15881,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(expense_claims) 
+      post_body = opts[:body] || @api_client.object_to_http_body(expense_claims)
 
       # return_type
-      return_type = opts[:return_type] || 'ExpenseClaims' 
+      return_type = opts[:return_type] || 'ExpenseClaims'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -15833,7 +15908,7 @@ module XeroRuby
     # Updates a specific sales invoices or purchase bills
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param invoice_id [String] Unique identifier for an Invoice
-    # @param invoices [Invoices] 
+    # @param invoices [Invoices]
     # @param [Hash] opts the optional parameters
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
     # @return [Invoices]
@@ -15845,7 +15920,7 @@ module XeroRuby
     # Updates a specific sales invoices or purchase bills
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param invoice_id [String] Unique identifier for an Invoice
-    # @param invoices [Invoices] 
+    # @param invoices [Invoices]
     # @param [Hash] opts the optional parameters
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
     # @return [Array<(Invoices, Integer, Hash)>] Invoices data, response status code and response headers
@@ -15874,7 +15949,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -15891,10 +15966,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(invoices) 
+      post_body = opts[:body] || @api_client.object_to_http_body(invoices)
 
       # return_type
-      return_type = opts[:return_type] || 'Invoices' 
+      return_type = opts[:return_type] || 'Invoices'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -15962,7 +16037,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -15979,10 +16054,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16006,7 +16081,7 @@ module XeroRuby
     # Updates a specific item
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param item_id [String] Unique identifier for an Item
-    # @param items [Items] 
+    # @param items [Items]
     # @param [Hash] opts the optional parameters
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
     # @return [Items]
@@ -16018,7 +16093,7 @@ module XeroRuby
     # Updates a specific item
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param item_id [String] Unique identifier for an Item
-    # @param items [Items] 
+    # @param items [Items]
     # @param [Hash] opts the optional parameters
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
     # @return [Array<(Items, Integer, Hash)>] Items data, response status code and response headers
@@ -16047,7 +16122,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -16064,10 +16139,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(items) 
+      post_body = opts[:body] || @api_client.object_to_http_body(items)
 
       # return_type
-      return_type = opts[:return_type] || 'Items' 
+      return_type = opts[:return_type] || 'Items'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16091,7 +16166,7 @@ module XeroRuby
     # Updates a specific linked transactions (billable expenses)
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param linked_transaction_id [String] Unique identifier for a LinkedTransaction
-    # @param linked_transactions [LinkedTransactions] 
+    # @param linked_transactions [LinkedTransactions]
     # @param [Hash] opts the optional parameters
     # @return [LinkedTransactions]
     def update_linked_transaction(xero_tenant_id, linked_transaction_id, linked_transactions, opts = {})
@@ -16102,7 +16177,7 @@ module XeroRuby
     # Updates a specific linked transactions (billable expenses)
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param linked_transaction_id [String] Unique identifier for a LinkedTransaction
-    # @param linked_transactions [LinkedTransactions] 
+    # @param linked_transactions [LinkedTransactions]
     # @param [Hash] opts the optional parameters
     # @return [Array<(LinkedTransactions, Integer, Hash)>] LinkedTransactions data, response status code and response headers
     def update_linked_transaction_with_http_info(xero_tenant_id, linked_transaction_id, linked_transactions, opts = {})
@@ -16129,7 +16204,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -16146,10 +16221,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(linked_transactions) 
+      post_body = opts[:body] || @api_client.object_to_http_body(linked_transactions)
 
       # return_type
-      return_type = opts[:return_type] || 'LinkedTransactions' 
+      return_type = opts[:return_type] || 'LinkedTransactions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16173,7 +16248,7 @@ module XeroRuby
     # Updates a specific manual journal
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param manual_journal_id [String] Unique identifier for a ManualJournal
-    # @param manual_journals [ManualJournals] 
+    # @param manual_journals [ManualJournals]
     # @param [Hash] opts the optional parameters
     # @return [ManualJournals]
     def update_manual_journal(xero_tenant_id, manual_journal_id, manual_journals, opts = {})
@@ -16184,7 +16259,7 @@ module XeroRuby
     # Updates a specific manual journal
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param manual_journal_id [String] Unique identifier for a ManualJournal
-    # @param manual_journals [ManualJournals] 
+    # @param manual_journals [ManualJournals]
     # @param [Hash] opts the optional parameters
     # @return [Array<(ManualJournals, Integer, Hash)>] ManualJournals data, response status code and response headers
     def update_manual_journal_with_http_info(xero_tenant_id, manual_journal_id, manual_journals, opts = {})
@@ -16211,7 +16286,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -16228,10 +16303,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(manual_journals) 
+      post_body = opts[:body] || @api_client.object_to_http_body(manual_journals)
 
       # return_type
-      return_type = opts[:return_type] || 'ManualJournals' 
+      return_type = opts[:return_type] || 'ManualJournals'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16299,7 +16374,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -16316,10 +16391,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16342,7 +16417,7 @@ module XeroRuby
 
     # Updates or creates one or more spent or received money transaction
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param bank_transactions [BankTransactions] 
+    # @param bank_transactions [BankTransactions]
     # @param [Hash] opts the optional parameters
     # @option opts [Boolean] :summarize_errors If false return 200 OK and mix of successfully created objects and any with validation errors (default to false)
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
@@ -16354,7 +16429,7 @@ module XeroRuby
 
     # Updates or creates one or more spent or received money transaction
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param bank_transactions [BankTransactions] 
+    # @param bank_transactions [BankTransactions]
     # @param [Hash] opts the optional parameters
     # @option opts [Boolean] :summarize_errors If false return 200 OK and mix of successfully created objects and any with validation errors
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
@@ -16381,7 +16456,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -16398,10 +16473,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(bank_transactions) 
+      post_body = opts[:body] || @api_client.object_to_http_body(bank_transactions)
 
       # return_type
-      return_type = opts[:return_type] || 'BankTransactions' 
+      return_type = opts[:return_type] || 'BankTransactions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16424,7 +16499,7 @@ module XeroRuby
 
     # Updates or creates one or more contacts in a Xero organisation
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param contacts [Contacts] 
+    # @param contacts [Contacts]
     # @param [Hash] opts the optional parameters
     # @option opts [Boolean] :summarize_errors If false return 200 OK and mix of successfully created objects and any with validation errors (default to false)
     # @return [Contacts]
@@ -16435,7 +16510,7 @@ module XeroRuby
 
     # Updates or creates one or more contacts in a Xero organisation
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param contacts [Contacts] 
+    # @param contacts [Contacts]
     # @param [Hash] opts the optional parameters
     # @option opts [Boolean] :summarize_errors If false return 200 OK and mix of successfully created objects and any with validation errors
     # @return [Array<(Contacts, Integer, Hash)>] Contacts data, response status code and response headers
@@ -16460,7 +16535,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -16477,10 +16552,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(contacts) 
+      post_body = opts[:body] || @api_client.object_to_http_body(contacts)
 
       # return_type
-      return_type = opts[:return_type] || 'Contacts' 
+      return_type = opts[:return_type] || 'Contacts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16542,7 +16617,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -16559,10 +16634,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(credit_notes) 
+      post_body = opts[:body] || @api_client.object_to_http_body(credit_notes)
 
       # return_type
-      return_type = opts[:return_type] || 'CreditNotes' 
+      return_type = opts[:return_type] || 'CreditNotes'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16621,7 +16696,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -16638,10 +16713,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(employees) 
+      post_body = opts[:body] || @api_client.object_to_http_body(employees)
 
       # return_type
-      return_type = opts[:return_type] || 'Employees' 
+      return_type = opts[:return_type] || 'Employees'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16664,7 +16739,7 @@ module XeroRuby
 
     # Updates or creates one or more sales invoices or purchase bills
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param invoices [Invoices] 
+    # @param invoices [Invoices]
     # @param [Hash] opts the optional parameters
     # @option opts [Boolean] :summarize_errors If false return 200 OK and mix of successfully created objects and any with validation errors (default to false)
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
@@ -16676,7 +16751,7 @@ module XeroRuby
 
     # Updates or creates one or more sales invoices or purchase bills
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param invoices [Invoices] 
+    # @param invoices [Invoices]
     # @param [Hash] opts the optional parameters
     # @option opts [Boolean] :summarize_errors If false return 200 OK and mix of successfully created objects and any with validation errors
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
@@ -16703,7 +16778,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -16720,10 +16795,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(invoices) 
+      post_body = opts[:body] || @api_client.object_to_http_body(invoices)
 
       # return_type
-      return_type = opts[:return_type] || 'Invoices' 
+      return_type = opts[:return_type] || 'Invoices'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16746,7 +16821,7 @@ module XeroRuby
 
     # Updates or creates one or more items
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param items [Items] 
+    # @param items [Items]
     # @param [Hash] opts the optional parameters
     # @option opts [Boolean] :summarize_errors If false return 200 OK and mix of successfully created objects and any with validation errors (default to false)
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
@@ -16758,7 +16833,7 @@ module XeroRuby
 
     # Updates or creates one or more items
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param items [Items] 
+    # @param items [Items]
     # @param [Hash] opts the optional parameters
     # @option opts [Boolean] :summarize_errors If false return 200 OK and mix of successfully created objects and any with validation errors
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
@@ -16785,7 +16860,7 @@ module XeroRuby
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -16802,10 +16877,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(items) 
+      post_body = opts[:body] || @api_client.object_to_http_body(items)
 
       # return_type
-      return_type = opts[:return_type] || 'Items' 
+      return_type = opts[:return_type] || 'Items'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16864,7 +16939,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -16881,10 +16956,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(manual_journals) 
+      post_body = opts[:body] || @api_client.object_to_http_body(manual_journals)
 
       # return_type
-      return_type = opts[:return_type] || 'ManualJournals' 
+      return_type = opts[:return_type] || 'ManualJournals'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16907,7 +16982,7 @@ module XeroRuby
 
     # Updates or creates one or more purchase orders
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param purchase_orders [PurchaseOrders] 
+    # @param purchase_orders [PurchaseOrders]
     # @param [Hash] opts the optional parameters
     # @option opts [Boolean] :summarize_errors If false return 200 OK and mix of successfully created objects and any with validation errors (default to false)
     # @return [PurchaseOrders]
@@ -16918,7 +16993,7 @@ module XeroRuby
 
     # Updates or creates one or more purchase orders
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param purchase_orders [PurchaseOrders] 
+    # @param purchase_orders [PurchaseOrders]
     # @param [Hash] opts the optional parameters
     # @option opts [Boolean] :summarize_errors If false return 200 OK and mix of successfully created objects and any with validation errors
     # @return [Array<(PurchaseOrders, Integer, Hash)>] PurchaseOrders data, response status code and response headers
@@ -16943,7 +17018,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -16960,10 +17035,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(purchase_orders) 
+      post_body = opts[:body] || @api_client.object_to_http_body(purchase_orders)
 
       # return_type
-      return_type = opts[:return_type] || 'PurchaseOrders' 
+      return_type = opts[:return_type] || 'PurchaseOrders'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -16986,7 +17061,7 @@ module XeroRuby
 
     # Updates or creates one or more quotes
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param quotes [Quotes] 
+    # @param quotes [Quotes]
     # @param [Hash] opts the optional parameters
     # @option opts [Boolean] :summarize_errors If false return 200 OK and mix of successfully created objects and any with validation errors (default to false)
     # @return [Quotes]
@@ -16997,7 +17072,7 @@ module XeroRuby
 
     # Updates or creates one or more quotes
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param quotes [Quotes] 
+    # @param quotes [Quotes]
     # @param [Hash] opts the optional parameters
     # @option opts [Boolean] :summarize_errors If false return 200 OK and mix of successfully created objects and any with validation errors
     # @return [Array<(Quotes, Integer, Hash)>] Quotes data, response status code and response headers
@@ -17022,7 +17097,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'summarizeErrors'] = opts[:'summarize_errors'] if !opts[:'summarize_errors'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -17039,10 +17114,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(quotes) 
+      post_body = opts[:body] || @api_client.object_to_http_body(quotes)
 
       # return_type
-      return_type = opts[:return_type] || 'Quotes' 
+      return_type = opts[:return_type] || 'Quotes'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -17066,7 +17141,7 @@ module XeroRuby
     # Updates a specific purchase order
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param purchase_order_id [String] Unique identifier for a PurchaseOrder
-    # @param purchase_orders [PurchaseOrders] 
+    # @param purchase_orders [PurchaseOrders]
     # @param [Hash] opts the optional parameters
     # @return [PurchaseOrders]
     def update_purchase_order(xero_tenant_id, purchase_order_id, purchase_orders, opts = {})
@@ -17077,7 +17152,7 @@ module XeroRuby
     # Updates a specific purchase order
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param purchase_order_id [String] Unique identifier for a PurchaseOrder
-    # @param purchase_orders [PurchaseOrders] 
+    # @param purchase_orders [PurchaseOrders]
     # @param [Hash] opts the optional parameters
     # @return [Array<(PurchaseOrders, Integer, Hash)>] PurchaseOrders data, response status code and response headers
     def update_purchase_order_with_http_info(xero_tenant_id, purchase_order_id, purchase_orders, opts = {})
@@ -17104,7 +17179,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -17121,10 +17196,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(purchase_orders) 
+      post_body = opts[:body] || @api_client.object_to_http_body(purchase_orders)
 
       # return_type
-      return_type = opts[:return_type] || 'PurchaseOrders' 
+      return_type = opts[:return_type] || 'PurchaseOrders'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -17192,7 +17267,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -17209,10 +17284,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -17236,7 +17311,7 @@ module XeroRuby
     # Updates a specific quote
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param quote_id [String] Unique identifier for an Quote
-    # @param quotes [Quotes] 
+    # @param quotes [Quotes]
     # @param [Hash] opts the optional parameters
     # @return [Quotes]
     def update_quote(xero_tenant_id, quote_id, quotes, opts = {})
@@ -17247,7 +17322,7 @@ module XeroRuby
     # Updates a specific quote
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param quote_id [String] Unique identifier for an Quote
-    # @param quotes [Quotes] 
+    # @param quotes [Quotes]
     # @param [Hash] opts the optional parameters
     # @return [Array<(Quotes, Integer, Hash)>] Quotes data, response status code and response headers
     def update_quote_with_http_info(xero_tenant_id, quote_id, quotes, opts = {})
@@ -17274,7 +17349,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -17291,10 +17366,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(quotes) 
+      post_body = opts[:body] || @api_client.object_to_http_body(quotes)
 
       # return_type
-      return_type = opts[:return_type] || 'Quotes' 
+      return_type = opts[:return_type] || 'Quotes'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -17362,7 +17437,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -17379,10 +17454,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -17406,7 +17481,7 @@ module XeroRuby
     # Updates a specific draft expense claim receipts
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param receipt_id [String] Unique identifier for a Receipt
-    # @param receipts [Receipts] 
+    # @param receipts [Receipts]
     # @param [Hash] opts the optional parameters
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
     # @return [Receipts]
@@ -17418,7 +17493,7 @@ module XeroRuby
     # Updates a specific draft expense claim receipts
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param receipt_id [String] Unique identifier for a Receipt
-    # @param receipts [Receipts] 
+    # @param receipts [Receipts]
     # @param [Hash] opts the optional parameters
     # @option opts [Integer] :unitdp e.g. unitdp&#x3D;4 – (Unit Decimal Places) You can opt in to use four decimal places for unit amounts
     # @return [Array<(Receipts, Integer, Hash)>] Receipts data, response status code and response headers
@@ -17447,7 +17522,7 @@ module XeroRuby
       # query parameters
       query_params = opts[:query_params] || {}
       query_params[:'unitdp'] = opts[:'unitdp'] if !opts[:'unitdp'].nil?
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -17464,10 +17539,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(receipts) 
+      post_body = opts[:body] || @api_client.object_to_http_body(receipts)
 
       # return_type
-      return_type = opts[:return_type] || 'Receipts' 
+      return_type = opts[:return_type] || 'Receipts'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -17535,7 +17610,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -17552,10 +17627,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -17623,7 +17698,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -17640,10 +17715,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(body) 
+      post_body = opts[:body] || @api_client.object_to_http_body(body)
 
       # return_type
-      return_type = opts[:return_type] || 'Attachments' 
+      return_type = opts[:return_type] || 'Attachments'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -17666,7 +17741,7 @@ module XeroRuby
 
     # Updates tax rates
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param tax_rates [TaxRates] 
+    # @param tax_rates [TaxRates]
     # @param [Hash] opts the optional parameters
     # @return [TaxRates]
     def update_tax_rate(xero_tenant_id, tax_rates, opts = {})
@@ -17676,7 +17751,7 @@ module XeroRuby
 
     # Updates tax rates
     # @param xero_tenant_id [String] Xero identifier for Tenant
-    # @param tax_rates [TaxRates] 
+    # @param tax_rates [TaxRates]
     # @param [Hash] opts the optional parameters
     # @return [Array<(TaxRates, Integer, Hash)>] TaxRates data, response status code and response headers
     def update_tax_rate_with_http_info(xero_tenant_id, tax_rates, opts = {})
@@ -17699,7 +17774,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -17716,10 +17791,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(tax_rates) 
+      post_body = opts[:body] || @api_client.object_to_http_body(tax_rates)
 
       # return_type
-      return_type = opts[:return_type] || 'TaxRates' 
+      return_type = opts[:return_type] || 'TaxRates'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -17743,7 +17818,7 @@ module XeroRuby
     # Updates a specific tracking category
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param tracking_category_id [String] Unique identifier for a TrackingCategory
-    # @param tracking_category [TrackingCategory] 
+    # @param tracking_category [TrackingCategory]
     # @param [Hash] opts the optional parameters
     # @return [TrackingCategories]
     def update_tracking_category(xero_tenant_id, tracking_category_id, tracking_category, opts = {})
@@ -17754,7 +17829,7 @@ module XeroRuby
     # Updates a specific tracking category
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param tracking_category_id [String] Unique identifier for a TrackingCategory
-    # @param tracking_category [TrackingCategory] 
+    # @param tracking_category [TrackingCategory]
     # @param [Hash] opts the optional parameters
     # @return [Array<(TrackingCategories, Integer, Hash)>] TrackingCategories data, response status code and response headers
     def update_tracking_category_with_http_info(xero_tenant_id, tracking_category_id, tracking_category, opts = {})
@@ -17781,7 +17856,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -17798,10 +17873,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(tracking_category) 
+      post_body = opts[:body] || @api_client.object_to_http_body(tracking_category)
 
       # return_type
-      return_type = opts[:return_type] || 'TrackingCategories' 
+      return_type = opts[:return_type] || 'TrackingCategories'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
@@ -17826,7 +17901,7 @@ module XeroRuby
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param tracking_category_id [String] Unique identifier for a TrackingCategory
     # @param tracking_option_id [String] Unique identifier for a Tracking Option
-    # @param tracking_option [TrackingOption] 
+    # @param tracking_option [TrackingOption]
     # @param [Hash] opts the optional parameters
     # @return [TrackingOptions]
     def update_tracking_options(xero_tenant_id, tracking_category_id, tracking_option_id, tracking_option, opts = {})
@@ -17838,7 +17913,7 @@ module XeroRuby
     # @param xero_tenant_id [String] Xero identifier for Tenant
     # @param tracking_category_id [String] Unique identifier for a TrackingCategory
     # @param tracking_option_id [String] Unique identifier for a Tracking Option
-    # @param tracking_option [TrackingOption] 
+    # @param tracking_option [TrackingOption]
     # @param [Hash] opts the optional parameters
     # @return [Array<(TrackingOptions, Integer, Hash)>] TrackingOptions data, response status code and response headers
     def update_tracking_options_with_http_info(xero_tenant_id, tracking_category_id, tracking_option_id, tracking_option, opts = {})
@@ -17869,7 +17944,7 @@ module XeroRuby
 
       # query parameters
       query_params = opts[:query_params] || {}
-      
+
       # XeroAPI's `IDs` convention openapi-generator does not snake_case properly.. manual over-riding `i_ds` malformations:
       query_params[:'IDs'] = @api_client.build_collection_param(opts[:'ids'], :csv) if !opts[:'ids'].nil?
       query_params[:'ContactIDs'] = @api_client.build_collection_param(opts[:'contact_ids'], :csv) if !opts[:'contact_ids'].nil?
@@ -17886,10 +17961,10 @@ module XeroRuby
       form_params = opts[:form_params] || {}
 
       # http body (model)
-      post_body = opts[:body] || @api_client.object_to_http_body(tracking_option) 
+      post_body = opts[:body] || @api_client.object_to_http_body(tracking_option)
 
       # return_type
-      return_type = opts[:return_type] || 'TrackingOptions' 
+      return_type = opts[:return_type] || 'TrackingOptions'
 
       # auth_names
       auth_names = opts[:auth_names] || ['OAuth2']
